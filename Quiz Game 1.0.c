@@ -69,12 +69,7 @@ int main(int argc,int *argv[]){
     	if (toupper(getch())=='F'){
 		    goto game;
         }
-		else{
-        	goto mainhome;
-       		system("cls");
-       	}
-
-	} else {
+	else {
 		goto mainhome;
 	}
 	
